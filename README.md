@@ -25,9 +25,15 @@ created as a frontend development portfolio project.
 ## Live Demo
 
  https://anaskhan-s.github.io/royal-spice-restaurant/
-
+ 
 ## Author
 
-Anas Khan
+**Anas Khan**
 
-Frontend Development Portfolio Project
+Aspiring Frontend Developer
+
+Skills: HTML, CSS, JavaScript
+
+GitHub: https://github.com/Anaskhan-S
+
+LinkedIn: https://www.linkedin.com/in/anaskhans
