@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #fffaf2;
+    color: #333;
+}
+
+header {
+    background: #24140f;
+    color: white;
+    padding: 20px 8%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+nav h2 {
+    color: #f3b64b;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.hero {
+    min-height: 450px;
+    background: linear-gradient(90deg, #24140f, #71401f);
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 60px 10%;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin: 20px 0;
+    max-width: 600px;
+}
+
+.hero p {
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background: #e9a638;
+    color: #24140f;
+    padding: 13px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.about, .menu, .contact {
+    padding: 65px 10%;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 25px;
+}
+
+.food-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.food {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px #00000015;
+    min-width: 200px;
+}
+
+.food p {
+    color: #b46a16;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+footer {
+    background: #24140f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+    .hero h1 {
+        font-size: 34px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    .links a {
+        margin: 5px;
+    }
+}
